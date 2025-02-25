@@ -1,0 +1,35 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .not-found-gif {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }

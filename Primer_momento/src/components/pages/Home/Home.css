@@ -1,0 +1,38 @@
+
+.home{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(../../../assets/img/hotel2.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home__banner{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.home__banner-tittle{
+font-size: 40px;
+font-weight: 900;
+}
+
+.home__banner-subtittle{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.home__banner-description{
+    font-size: 10px;
+    font-weight: 100;
+}
