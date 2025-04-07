@@ -57,8 +57,8 @@ const Acommodation = () => {
         />
         <h2 className="featured-title">{selectedRoom.name}</h2>
         <p className="featured-price">{selectedRoom.price}</p>
-        <button className="booking-button" onClick={() => navigate("/booking")}>
-          Reservar ahora
+        <button className="booking-button" onClick={() => navigate("/room")}>
+          Reserve
         </button>
       </div>
     </div>

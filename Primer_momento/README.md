@@ -1,47 +1,49 @@
 
 # 🏨 Monalisa Hotel
-Bienvenido a Monalisa Hotel, una plataforma web para la gestión de reservas. Esta aplicación permite a los usuarios conocer más sobre el hotel, explorar opciones de reserva a través del Dashboard y gestionar sus reservas en la sección de **Booking**.
+Welcome to Monalisa Hotel, a web platform for reservation management. This application allows users to learn more about the hotel, explore booking options through the Dashboard, and manage their reservations in the **Booking** section.
 
-## 🌟 Características Principales
+## 🌟 Key Features
 
-✅ Sección "Sobre Nosotros" con información del hotel.  
-✅ **Dashboard** para visualizar las opciones de reserva.  
-✅ **Booking** para gestionar y ver reservas.  
-✅ Diseño moderno y responsivo con **CSS vanilla**.  
-✅ Construido con **Vite** para un desarrollo rápido y eficiente.  
+✅ "About Us" section with hotel information.  
+✅ **Dashboard** to view booking options.  
+✅ **Booking** to manage and view reservations.  
+✅ **Calendar** to check available schedules for the hotel's recreational areas.  
+✅ **Reservation Form** to fill in the necessary details for making a reservation.  
+✅ **Room Management** through the Room component for booking hotel rooms.  
+✅ Modern and responsive design with **vanilla CSS**.  
+✅ Built with **Vite** for fast and efficient development.  
 
 ## 🚀 Demo
 
-[🔗 Ver Demo en Producción](#) *(Si tienes una URL de despliegue, agrégala aquí)*
+[🔗 View Live Demo](#) *(Add your deployment URL here if available)*
 
-## 📦 Tecnologías Utilizadas
+## 📦 Technologies Used
 
 - **React 18**
 - **Vite**
-- **CSS vanilla**
-- **React Router** *(para navegación)*
+- **Vanilla CSS**
+- **React Router** *(for navigation)*
 
-## 🔧 Instalación y Uso
+## 🔧 Installation and Usage
 
-Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+Follow these steps to run the project locally:
 
 ```bash
-# Clonar el repositorio
+# Clone the repository
 git clone https://github.com/Richtofen2307/gestorapp2025.git
 
-# Acceder al directorio del proyecto
+# Navigate to the project directory
 cd gestorapp2025
 
-# Instalar dependencias
+# Install dependencies
 npm install
 
-# Iniciar el servidor de desarrollo
+# Start the development server
 npm run dev
-```
 
-El servidor se ejecutará en **http://localhost:5173** *(o el puerto configurado en Vite)*.
+The server will run at http://localhost:5173 (or the port configured in Vite).
 
-## 📂 Estructura del Proyecto
+## 📂 Project Structure
 
 ```
 /gestorapp
@@ -56,6 +58,9 @@ El servidor se ejecutará en **http://localhost:5173** *(o el puerto configurado
       /Header
       /Press
       /Menu
+      /Calendar    # New component to check available schedules
+      /Form        # New component to manage the reservation form
+      /Room        # New component to manage hotel room bookings
     /pages        # Main pages (Booking, Dashboard, Home)
     /router       # Routing configuration
       + Router.jsx
@@ -69,12 +74,11 @@ El servidor se ejecutará en **http://localhost:5173** *(o el puerto configurado
   vite.config.js     # Vite configuration
 ```
 
-## 📜 Licencia
+## 📜 License
 
-Este proyecto está bajo la licencia **MIT**.
+This project is licensed under the **MIT** license.
 
-## ✨ Autores
-
-Desarrollado por Diego Ramirez
-Si buscas un desarrollador en react o flutter **Soy Ese** 🚀
+## ✨ Authors
+Developed by Diego Ramirez
+If you're looking for a React or Flutter developer, I'm the one 🚀**I'm the ONE** 🚀
 

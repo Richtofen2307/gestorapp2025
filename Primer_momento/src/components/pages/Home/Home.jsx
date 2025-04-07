@@ -5,6 +5,7 @@ import Acommodation from '../../commons/Acommodation/Acommodation'
 import Experience from '../../commons/Experience/Experience'
 import ContactUs from '../../commons/ContactUs/ContactUs'
 
+
 const Home = () => {
   return (
     <>
