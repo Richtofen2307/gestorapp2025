@@ -1,14 +1,16 @@
 .acommodation-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4rem 2rem;
+  flex-wrap: wrap; /* Permite que los elementos se ajusten en pantallas pequeñas */
+  justify-content: space-around; /* Reduce la separación entre elementos */
+  align-items: flex-start; /* Alinea los elementos al inicio */
+  padding: 2rem 1rem; /* Reduce el espacio alrededor del contenido */
   background-color: #f9f9f9;
+  gap: 20px; /* Espaciado uniforme entre elementos */
 }
 
 .room-list {
   flex: 1;
-  max-width: 40%;
+  max-width: 45%; /* Ajusta el ancho para equilibrar con la habitación destacada */
 }
 
 .room-list h3 {
@@ -19,9 +21,9 @@
 }
 
 .room-list h1 {
-  font-size: 2.5rem;
+  font-size: 2rem; /* Reduce el tamaño para evitar desbordes */
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .room-card {
@@ -67,7 +69,7 @@
 
 .featured-room {
   flex: 1;
-  max-width: 55%;
+  max-width: 50%; /* Ajusta el ancho para equilibrar con la lista de habitaciones */
   text-align: center;
 }
 
@@ -78,14 +80,14 @@
 }
 
 .featured-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem; /* Reduce el tamaño para evitar desbordes */
   margin: 15px 0;
 }
 
 .featured-price {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Ajusta el tamaño del texto */
   color: #777;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .booking-button {
@@ -100,4 +102,26 @@
 
 .booking-button:hover {
   background-color: #e67e22;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .acommodation-container {
+    flex-direction: column; /* Cambia a diseño vertical */
+    align-items: center; /* Centra los elementos */
+    gap: 30px; /* Espaciado entre elementos */
+  }
+
+  .room-list,
+  .featured-room {
+    max-width: 90%; /* Ocupan casi todo el ancho en pantallas pequeñas */
+  }
+
+  .room-list h1 {
+    font-size: 1.8rem; /* Ajusta el tamaño del título */
+  }
+
+  .featured-title {
+    font-size: 1.3rem; /* Reduce el tamaño del texto */
+  }
 }

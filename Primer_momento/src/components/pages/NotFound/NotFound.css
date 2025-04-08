@@ -1,35 +1,82 @@
 .not-found-container {
-    text-align: center;
-    padding: 50px;
+  text-align: center;
+  padding: 50px;
+}
+
+.not-found-gif {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.home-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .not-found-container {
+    padding: 30px;
   }
-  
+
   .not-found-gif {
-    width: 400px;
-    height: auto;
-    margin-bottom: 20px;
+    width: 300px; 
   }
-  
+
   h1 {
-    font-size: 2rem;
-    color: #333;
+    font-size: 1.8rem; 
   }
-  
+
   p {
-    font-size: 1.2rem;
-    color: #777;
+    font-size: 1rem; 
   }
-  
+
   .home-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+    font-size: 0.9rem; 
+    padding: 8px 16px;
   }
-  
-  .home-button:hover {
-    background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .not-found-container {
+    padding: 20px;
   }
+
+  .not-found-gif {
+    width: 200px; 
+  }
+
+  h1 {
+    font-size: 1.5rem; 
+  }
+
+  p {
+    font-size: 0.9rem; 
+  }
+
+  .home-button {
+    font-size: 0.8rem; 
+    padding: 6px 12px;
+  }
+}

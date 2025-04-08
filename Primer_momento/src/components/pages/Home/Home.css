@@ -1,5 +1,4 @@
-
-.home{
+.home {
     width: 100%;
     height: calc(100vh - 70px);
     background-image: url(../../../assets/img/hotel2.jpeg);
@@ -9,10 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.home__banner{
+  }
+  
+  .home__banner {
     width: 500px;
     height: 500px;
     display: flex;
@@ -20,19 +18,62 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-}
-
-.home__banner-tittle{
-font-size: 40px;
-font-weight: 900;
-}
-
-.home__banner-subtittle{
+  }
+  
+  .home__banner-tittle {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .home__banner-subtittle {
     font-size: 15px;
     font-weight: 100;
-}
-
-.home__banner-description{
+  }
+  
+  .home__banner-description {
     font-size: 10px;
     font-weight: 100;
-}
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .home__banner {
+      width: 90%; 
+      height: auto; 
+      gap: 10px; 
+    }
+  
+    .home__banner-tittle {
+      font-size: 30px; 
+    }
+  
+    .home__banner-subtittle {
+      font-size: 13px; 
+    }
+  
+    .home__banner-description {
+      font-size: 9px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home__banner {
+      width: 100%;
+      padding: 20px; 
+    }
+  
+    .home__banner-tittle {
+      font-size: 24px; 
+      text-align: center; 
+    }
+  
+    .home__banner-subtittle {
+      font-size: 12px;
+      text-align: center; 
+    }
+  
+    .home__banner-description {
+      font-size: 8px; 
+      text-align: center; 
+    }
+  }

@@ -47,11 +47,11 @@
 
 .form-group input {
   width: 100%;
-  max-width: 100%; /* Evita que los inputs se desborden */
+  max-width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+  box-sizing: border-box;
 }
 
 .submit-button {
@@ -72,15 +72,15 @@
 /* Media Query para pantallas pequeñas */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; /* Cambia a diseño vertical */
+    flex-direction: column; 
   }
 
   .image-section,
   .form-section {
-    width: 100%; /* Ocupan todo el ancho */
+    width: 100%; 
   }
 
   .reservation-form {
-    max-width: 90%; /* Ajusta el ancho en pantallas pequeñas */
+    max-width: 90%; 
   }
 }

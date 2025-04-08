@@ -2,7 +2,6 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  
 }
 
 h1 {
@@ -49,12 +48,75 @@ select {
 .place-image {
   width: 100%;
   max-width: 500px;
-  height: 300px; 
-  object-fit: cover; 
+  height: 300px;
+  object-fit: cover;
   border-radius: 10px;
   margin-top: 15px;
 }
 
 .calendar-container {
   margin-top: 20px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .booking-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Ajusta el tamaño del título */
+  }
+
+  select {
+    font-size: 14px; /* Reduce el tamaño del texto */
+    padding: 8px;
+  }
+
+  .place-info {
+    padding: 10px;
+  }
+
+  .place-info h2 {
+    font-size: 20px; /* Reduce el tamaño del subtítulo */
+  }
+
+  .place-info p {
+    font-size: 14px; /* Reduce el tamaño del texto */
+  }
+
+  .place-image {
+    height: 250px; /* Ajusta la altura de la imagen */
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  select {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .place-info {
+    padding: 8px;
+  }
+
+  .place-info h2 {
+    font-size: 18px; 
+  }
+
+  .place-info p {
+    font-size: 12px;
+  }
+
+  .place-image {
+    height: 200px; 
+  }
 }
